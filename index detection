@@ -1,0 +1,16 @@
+#GOBUSTER
+• gobuster dir -u http://XX.XX.XX.XX/Customer/Info -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -k
+------------------------
+#with ssl GOBUSTER
+• gobuster dir -u http://XX.XX.XX.XX -w /usr/share/wordlists/dirbuster -k 
+------------------------
+#DiRB
+• dirb url -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+------------------------
+#Davtest
+• davtest -url http://XX.XX.XX.XX
+------------------------
+#WPScan
+• wpscan -u https://omurugur.com/ --disable-tls-checks --enumerate p -- emumerate t --enumerate -u
+• wpscan --url  https://omurugur.com/ --disable-tls-checks --api-tkoen <redacted>
+• wpscan --url  https://omurugur.com/  -e ap 
