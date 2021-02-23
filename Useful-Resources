@@ -1,0 +1,101 @@
+Blog :
+My experience with the OSCP certification — Security Café
+PWK and OSCP my experience | Fady Osman’s Technical Blog
+Offensive Security’s PWB and OSCP — My Experience — Security SiftSecurity Sift
+Penetration Testing With Backtrack — OSCP — Things all the hacking
+Pentesting With BackTrack (PWB) + Offensive Security Certified Professional (OSCP)
+OSCP Course and Exam Review — RCE Security
+Try Harder! An OSCP Review.Blog of Jason Bernier
+Pentest Tips and Tricks — EK
+Open Security Research: Using Mimikatz to Dump Passwords!
+Hacking/OSCP cheatsheet :: Ceso Adventures
+The CORE Hacking Course — YouTube
+Eğlence ve Kâr için bir web.config Dosyası Yükleme | Soroush Dalili (@irsdl) — سروش دلیلی
+NetSecFocus Trophy Room — Google Drive
+Enumeration :
+oscp/linux-template.md at master · xapax/oscp
+oscp/windows-template.md at master · xapax/oscp
+CTF Series : Vulnerable Machines — tech.bitvijays.com
+PWK Notes: SMB Enumeration Checklist [Updated] | 0xdf hacks stuff
+nmapAutomator/nmapAutomator.sh at master · 21y4d/nmapAutomator
+Privilege_Escalation_Windows:
+Windows Privilege Escalation Guide
+FuzzySecurity | Windows Privilege Escalation Fundamentals
+Windows elevation of privileges
+(1) Windows Privilege Escalation — AlwaysInstallElevated — YouTube
+PowerSploit/PowerUp.ps1 at master · PowerShellMafia/PowerSploit
+WindowsEnum/WindowsEnum.ps1 at master · absolomb/WindowsEnum
+Windows-Exploit-Suggester/windows-exploit-suggester.py at master · AonCyberLabs/Windows-Exploit-Suggester
+Windows Privilege Escalation Methods for Pentesters — Pentest Blog
+FuzzySecurity | Windows Privilege Escalation Fundamentals
+Windows Local Privilege Escalation — HackTricks
+GhostPack/SharpUp: SharpUp is a C# port of various PowerUp functionality.
+Ghostpack-CompiledBinaries/SharpUp.exe at master · r3motecontrol/Ghostpack-CompiledBinaries
+https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1
+GhostPack/Seatbelt: Seatbelt is a C# project that performs a number of security oriented host-survey “safety checks” relevant from both offensive and defensive security perspectives.
+Ghostpack-CompiledBinaries/Seatbelt.exe at master · r3motecontrol/Ghostpack-CompiledBinaries
+privilege-escalation-awesome-scripts-suite/winPEAS at master · carlospolop/privilege-escalation-awesome-scripts-suite
+bitsadmin/wesng: Windows Exploit Suggester — Next Generation
+rasta-mouse/Watson: Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities
+SecWiki/windows-kernel-exploits: windows-kernel-exploits Windows平台提权漏洞集合
+Neohapsis/creddump7
+juicy-potato/README.md at master · ohpe/juicy-potato
+antonioCoco/RoguePotato: Another Windows Local Privilege Escalation from Service Account to System
+itm4n/PrintSpoofer: Abusing Impersonation Privileges on Windows 10 and Server 2019
+Privilege_Escalation_Linux:
+sagishahar/lpeworkshop: Windows / Linux Local Privilege Escalation Workshop
+Linux elevation of privileges
+LinEnum/LinEnum.sh at master · rebootuser/LinEnum
+Basic Linux Privilege Escalation
+Linux Privilege Escalation Scripts
+Linux Privilege Escalation — HackTricks
+diego-treitos/linux-smart-enumeration: Linux enumeration tool for pentesting and CTFs with verbosity levels
+Cronjobs’u Kullanarak Linux Ayrıcalık Yükselmesi
+rebootuser/LinEnum: Scripted Local Linux Enumeration & Privilege Escalation Checks
+linted/linuxprivchecker: linuxprivchecker.py — a Linux Privilege Escalation Check Script
+AlessandroZ/BeRoot: Privilege Escalation Project — Windows / Linux / Mac
+unix-privesc-check | pentestmonkey
+jondonas/linux-exploit-suggester-2: Next-Generation Linux Kernel Exploit Suggester
+Linux Sızma Testlerinde Hak Yükseltme Yöntemleri | SİBER GÜVENLİK PORTALİ
+Reverse_Shell:
+reverseshell | pentestmonkey
+netcat 1.11 for Win32/Win64
+Upgrading Simple Shells to Fully Interactive TTYs — ropnop blog
+Spawning a TTY Shell
+Reverse Shell Cheat Sheet | pentestmonkey
+Reverse Shell Cheat Sheet
+Remote-File-Inclusion-Shell/knock.txt at master · namansahore/Remote-File-Inclusion-Shell
+BOF:
+PWK/OSCP — Stack Buffer Overflow Practice — vortex’s blog
+Seattle Lab Mail (SLmail) 5.5 Üzerinde Stack Tabanlı Bellek Taşma Zafiyetinin İstismarı | SİBER GÜVENLİK PORTALİ
+(1) Buffer Overflow Exploitation (Minishare & FreeFloat) — YouTube
+justinsteven/dostackbufferoverflowgood
+jessekurrus/slmailsploits: Several Python scripts used to fuzz and exploit SLmail. These are meant to supplement the Kali Linux Hands-on Pentesting Udemy course.
+(2) Immunity Debugger Overview — YouTube
+Stack Based Buffer Overflow in Win 32 Platform: The Basics
+Stack Buffer Overflow Zafiyeti — PCMan FTP Server 2.0.7 | Ahmet GÜREL
+Zero Day Zen Garden: Windows Exploit Development — Part 5 [Return Oriented Programming Chains]
+Zero Day Zen Garden: Windows Exploit Development — Part 4 [Overwriting SEH with Buffer Overflows]
+Buffer Overflow — Easy Chat Server 3.1 — OnSecurity
+Buffer Overflow Exploit Geliştirme ~ BTRiskBlog Pentest, ISO27001 ve BT Denetimi Hakkında Herşey
+Coalfire — The Basics of Exploit Development 1: Win32 Buffer Overflows
+Coalfire — Coalfire Blog
+Coalfire — Coalfire Blog
+Customized Mail Server Software Buffer Overflow on Windows Server 2008 | by Rudy Samuel Pardosi | Medium
+Vulnserver Kullanarak Basit Bir Arabellek Taşması | Z3R0th tarafından | Orta
+Bağışıklık Hata Ayıklayıcısı ve Mona.py ile Kötü Karakterler Bulma — Bulb Security
+minishare 1.4.1 exploit — YouTube
+SQLI:
+SQL-Injections · Security — My notepad
+44348-error-based-sql-injection-in-order-by-clause-(mssql).pdf
+Full MSSQL Injection PWNage
+MSSQL Practical Injection Cheat Sheet — Perspective Risk
+SQL Injection Cheat Sheet | Netsparker
+Öner KAYA: Gelişmiş SQL Enjeksiyon İşlemleri (Advanced Sql Injection)
+Red Team Tales 0x01: From MSSQL to RCE — Tarlogic Security — Cyber Security and Ethical hacking
+SQL Injection Cheat Sheet | Bhanu Notes
+SQL-Injections · Total OSCP Guide
+SQL Tutorial
+LFI:
+Hack The Box — Poison Writeup w/o Metasploit | by Rana Khalil | The Startup | Medium
+(7) HackTheBox — Poison — YouTube
